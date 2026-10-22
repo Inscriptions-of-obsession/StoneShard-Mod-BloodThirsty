@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UndertaleModLib">
+      <HintPath>D:\Trae program\Tools\Analysis\RoundtripTest\UTMT\0.8.3.0\UndertaleModLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Underanalyzer">
+      <HintPath>D:\Trae program\Tools\Analysis\RoundtripTest\UTMT\0.8.3.0\Underanalyzer.dll</HintPath>
+    </Reference>
+    <!-- UTMT 0.8.3.0 的 game-specific resolver 依赖 System.Text.Json 9.0 运行时 -->
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

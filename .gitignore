@@ -1,0 +1,15 @@
+# .NET 构建产物
+bin/
+obj/
+librefs/
+*.user
+
+# 模组成品与游戏文件（通过 Release 附件分发，不纳入版本控制）
+*.sml
+*.win
+*.win.bak
+
+# IDE
+.vs/
+.idea/
+*.suo
